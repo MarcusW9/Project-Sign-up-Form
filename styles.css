@@ -1,0 +1,170 @@
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url(./Font/Norse-Bold.otf);
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#page-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+   
+}
+
+#image-side {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    min-width: 30vw;
+    height: 100vh;
+}
+
+#background-img {
+    position: absolute;
+    width: 40vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+#logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 40vw;
+    height: 30vh;
+    opacity: 60%;
+    top: 14rem;
+}
+
+#logo-img {
+    max-height: 90%;
+}
+
+#logo-text {
+    font-size: 8rem;
+    font-family: "Norse Bold";
+    color: white;
+}
+
+#form-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 60vw;
+    background-color:#f9f9f9;
+}
+
+#main-text {
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+#form-container {
+    border: 0px solid black;
+    box-shadow: 10px 4px 4px 4px #d0cccc;
+    background-color: #ffffff;
+}
+
+#main-form legend {
+    margin: 2rem; 
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+#form-body {
+    margin: 2rem; 
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#left-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#right-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8rem
+}
+
+#form-body input {
+    min-width: 240px;
+    min-height: 24px;
+    border-radius: 4px;
+    border-color: #E5E7EB;
+    margin-bottom: 8px;
+    margin-top: 4;
+}
+
+#form-body input:focus {
+    min-width: 240px;
+    min-height: 24px;
+    border-radius: 4px;
+    border-color: blue;
+    margin-bottom: 8px;
+    margin-top: 4;
+    box-shadow: 2px 2px 2px #d0cccc;
+}
+
+#form-body input:invalid {
+    min-width: 240px;
+    min-height: 24px;
+    border-radius: 4px;
+    border-color: #D22B2B	;
+    margin-bottom: 8px;
+    margin-top: 4;
+    background-color: lightpink;
+}
+
+#form-body input.error {
+    min-width: 240px;
+    min-height: 24px;
+    border-radius: 4px;
+    border-color: #D22B2B;
+    margin-bottom: 8px;
+    margin-top: 4;
+    background-color: #ffcccb;
+}
+
+#password-error {
+    margin-top: -4px;
+    color: #D22B2B;
+    display: none;
+}
+
+#button-section {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+#create-account {
+    background-color: #596D48;
+    min-height: 50px;
+    width: 200px;
+    box-shadow: 1px 1px lightgray;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-bottom: 8px;
+}
+

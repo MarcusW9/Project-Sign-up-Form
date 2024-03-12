@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./styles.css" rel="stylesheet"></script>
+    
+</head>
+<body>
+    <div id="page-container">
+    <div id="image-side">
+        <img id="background-img" src="./Images/halie-west-25xggax4bSA-unsplash.jpg">
+        <div id="logo">
+            <img id="logo-img" src="./Images/odin-lined.png">
+            <h2 id="logo-text">ODIN</h2>
+        </div>
+    </div>
+    <div id="form-side">
+        <div id="main-text">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up <em>now</em> to get started.
+            </p>
+            <p>You <em>know</em> you want to</p>
+        </div>
+
+        <div id="form-container">
+            <form id="main-form" action="">
+                <legend>Let's do this!</legend>
+                <div id="form-body">
+                <div id="left-form">
+                    <ul>
+                        <li><label for="first-name">FIRST NAME</label></li>
+                        <li><input type="text" name="first-name" id="first-name"></li>
+                        <li><label for="email-address">EMAIL</label></li>
+                        <li><input type="email" name="email-address" id="email-address"></li>
+                        <li><label for="password">PASSWORD</label></li>
+                        <li><input type="password" name="password" id="password"></li>
+                        <li id="password-error">* Passwords do not match</li>
+                    </ul>
+                </div>
+                <div id="right-form">
+                    <ul>
+                        <li><label for="last-name">LAST NAME</label></li>
+                        <li><input type="text" name="last-name" id="last-name"></li>
+                        <li><label for="phone-number">PHONE NUMBER</label></li>
+                        <li><input type="number" name="phone-number" id="phone-number"></li>
+                        <li><label for="confirm-password">CONFIRM PASSWORD</label></li>
+                        <li><input type="password" name="confirm-password" id="confirm-password"></li>
+                    </ul>
+                </div>
+                </div>
+            </form>
+        </div>
+
+        <div id="button-section">
+            <button id="create-account" form="main-form" type="submit">Create Account</button>
+            Already have an account? Log in
+        </div>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
